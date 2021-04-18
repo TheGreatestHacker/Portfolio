@@ -18,6 +18,13 @@ markup:
     endLevel: 6
     ordered: false
 
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
 
 
 # Enable global emoji support
