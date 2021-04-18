@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Azure Mortgage Calculator
+  logo: /images/sections/projects/kubernetes.png
+  role: Owner
+  timeline: "Jan 2021 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Full stack cloud-based application using azure's webjobs, app services, tables, queues, containers, and logging.
+  tags: ["azure", ".net core 3", "cloud", "academic"]
+
+- name: Simon Says Embedded System
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner
+  timeline: "Spring 2020"
+  repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: Created both hardware and software for a simon says game on the ESP8266 with added local webserver features for score tracking.
+  tags: ["Arduino", "Fritzing", "embedded system", "academic"]
+
+- name: Network Vulnerability Scanner
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner
+  timeline: "Fall 2020"
+  # repo: https://github.com/tensorflow/tensorflow
+  # url: ""
+  summary: Created a shell script application with a simple terminal interface interacting with NMAP and Vulners for quick scans and statistics.
+  tags: ["Bash", "Shell Script", "NMAP", "academic"]
+
+- name: AWS Collage App
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Spring 2019"
+  repo: https://github.com/hossainemruz/toha
+  summary: Deployed a PHP web app on AWS where user can upload their images to create an online collage.
+  tags: ["aws"," php","vagrant","academic"]
+
+- name: Help Desk Ticketing System
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Fall 2018"
+  repo: https://github.com/hossainemruz/toha
+  summary: Full stack monolithics Java ticketing system application for windows.
+  tags: ["java","mariaDB","swing","academic"]

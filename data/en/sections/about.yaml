@@ -1,0 +1,46 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Developer
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/BryanCruz-Resume.pdf"
+
+# a summary about you
+summary: 'Looking to graduate in Information Tech and Management with experience working across the full stack software development. I have built various projects by myself and in team settings. Looking for a role where I can grow and learn from other experienced team members'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/example"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://www.github.com/example"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Front-end
+  percentage: 95
+  color: blue
+- name: Back-end
+  percentage: 80
+  color: green
+- name: DevOps
+  percentage: 60
+  color: yellow
